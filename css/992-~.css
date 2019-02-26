@@ -1,0 +1,115 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/*Navigation*/
+nav {
+    background-color: #556270;
+}
+nav ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 2rem 0;
+    margin: 0;
+    font-size: 0.9rem;
+}
+nav li {
+    display: inline-block;
+    margin: 0 0.8rem;
+}
+nav li a {
+    text-decoration: none;
+    color: #adb5bd;
+}
+/*Banner*/
+#banner h1 {
+    font-weight: bold;
+    margin: 3rem 0 2rem 0;
+}
+.banner-text {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 2rem;
+}
+/*List Image*/
+#list-image {
+    padding: 3rem 0rem 1rem 0rem;
+}
+#list-image h1 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+#list-image img {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 1.5rem 0;
+}
+/*Footer*/
+footer {
+    padding: 3rem 0;
+    font-size: 1.3rem;
+}
+footer h4 {
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+footer a {
+    display: inline-block;
+    margin-bottom: 5rem;
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) {
+    /*Navigation*/
+    nav ul {
+        text-align: right;
+    }
+    .left { 
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    /*Navigation*/
+    nav {
+        background-color: white;
+    }
+    nav ul {
+        padding: 2rem;
+        font-size: 1rem;
+    }
+    /*Banner*/
+    #banner {
+        display: flex;
+        background-image: url("https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png");
+        background-size: cover;
+        height: 30rem;
+    }
+    .banner-text {
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        color: #ffffff;
+        text-shadow: 0.25px 0.25px 0.25px #000000;
+        border: none;
+    }
+    #banner h1 {
+        font-family: 'Roboto Slab', serif;
+    }
+    /*List Image*/
+    #list-image {
+        background-color: #efefef;
+        padding: 5rem 1rem 3rem 1rem;
+    }
+    #list-image img{
+        padding: 0.9rem 0;
+        margin: inherit;
+        width: auto;
+    }
+   /*Footer*/
+    footer {
+        background-color: #f7f7f7;
+        padding: 3rem 1rem;
+    }
+}
