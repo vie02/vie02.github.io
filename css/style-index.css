@@ -68,8 +68,48 @@ footer a {
     .left { 
         float: left;
     }
+}
+
+@media only screen and (min-width: 992px) {
+    /*Navigation*/
+    nav {
+        background-color: white;
+    }
+    nav ul {
+        padding: 2rem;
+        font-size: 1rem;
+    }
+    /*Banner*/
+    #banner {
+        display: flex;
+        background-image: url("/img/hoi-an.jpg");
+        background-size: cover;
+        height: 30rem;
+    }
+    .banner-text {
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        color: #ffffff;
+        text-shadow: 0.25px 0.25px 0.25px #000000;
+        border: none;
+    }
+    #banner h1 {
+        font-family: 'Roboto Slab', serif;
+    }
     /*List Image*/
-    #list-image img {
-        width: 90%;
+    #list-image {
+        background-color: #efefef;
+        padding: 5rem 1rem 3rem 1rem;
+    }
+    #list-image img{
+        padding: 0.9rem 0;
+        margin: inherit;
+        width: auto;
+    }
+   /*Footer*/
+    footer {
+        background-color: #f7f7f7;
+        padding: 3rem 1rem;
     }
 }
