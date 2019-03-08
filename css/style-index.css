@@ -82,7 +82,7 @@ footer a {
     /*Banner*/
     #banner {
         display: flex;
-        background-image: url("/img/hoi-an.jpg");
+        background-image: url("http://www.inseasia.com/wp-content/uploads/2015/03/hoi-an.jpg");
         background-size: cover;
         height: 30rem;
     }
